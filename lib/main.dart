@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
 
   Future<void> _initWalletConnect() async {
     _walletConnect = await Web3App.createInstance(
-      projectId: 'cad4956f31a5e40a00b62865b030c6f8',
+      projectId: 'f46f91321f7ac82f929eff53633f52ab',
       metadata: const PairingMetadata(
         name: 'Flutter WalletConnect',
         description: 'Flutter WalletConnect Dapp Example',
