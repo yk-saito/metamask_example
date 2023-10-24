@@ -1,16 +1,22 @@
 # metamask_example
+This is a simple application implementing Wallet Connect with Metamask using [walletconnect_flutter_v2](https://pub.dev/packages/walletconnect_flutter_v2). 
 
-A new Flutter project.
+## How to Run
 
-## Getting Started
+1\. Get the current package's dependencies.
 
-This project is a starting point for a Flutter application.
+```
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+2\. List all connected devices.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+flutter devices
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3\. Run the app on an attached device.
+
+```
+flutter run -d TARGET_DEVICE_ID_OR_NAME
+```
